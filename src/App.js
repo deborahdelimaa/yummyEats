@@ -1,10 +1,15 @@
-
+import React from 'react'
+import Navbar from './Components/Navbar'
+import Hero from './Components/Hero'
+import HeadlineCards from './Components/HeadlineCards';
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <div  >
+ <Navbar/>
+ <Hero/>
+ <HeadlineCards/>
     </div>
   );
 }
